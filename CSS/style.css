@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(128,134,139);
+    color: #000000;
+}
+
+#educa {
+    width: 10%;
+}
+
+.formacao {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+}
+
+.foto-raquel {
+    width: 20%;
+}
+
+strong {
+    color: #dd2400;
+}
+
+em {
+    color: blue;
+}
+
+h1 {
+    text-align: center;
+    background-color: #ffffff;
+    border: #000000 solid 10px;
+    margin: 40px;
+}
+
+.menu-itens {
+    background-color: yellow;
+}
