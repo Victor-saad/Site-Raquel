@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Raquel Bueno</title>
+    <link rel="Stylesheet" href="style2.css">
+
+</head>
+<body>
+    <header>
+        <h1><strong>Dra. Raquel Bueno</strong></h1>
+        <div class="caixa">
+            <img id="logo_educa" src="educa.png">
+            <nav>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/maria-raquel-oliveira-bueno-590a36100/?originalSubdomain=br" target="_blanked">LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com/rakbueno/?igshid=YmMyMTA2M2Y=" target="_blanked">Instagram</a></li>
+                    <li><a href="#formulario">Contato</a></li>
+                    <li><a href="https://wa.link/89w5hh" target="_blanked">WhatsApp</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="conhecam_a_raquel">
+        <h2>Conheçam a Raquel</h2>
+            <p>Raquel Bueno é graduada em Educação Física e em Fisioterapia.</p>
+            <p>Doutora em Ed. Física </p>
+    </div>
+        <div class="informacoes">
+        <p>Seguem abaixo algumas das atuações dela:</p>
+        <ul>
+            <li>Personal Trainer</li>
+            <li>Fisioterapeuta</li>
+            <li>Professora de Pilates</li>
+        </ul>
+        </div>
+        <img class="foto-raquel" 
+        src="Foto-Maria-Raquel-Oliveira-Bueno.jpg">
+    <main>
+        <ul class="produtos">
+            <li>
+                <h3>Personal</h3>
+                <p>&#128525;</p>
+                <img src="./Img/personal.jpg"> 
+                <p>Personal exclusivo para você?</p>
+                <p class="valor">Valor: R$ ___/hora-aula</p>   
+            </li>
+            <li>
+                <h3>Pilates</h3>
+                <p>&#128525;</p>
+                <img src="./Img/pilates.jpg">
+                <p>Pilates com orientação exclusiva</p>
+                <p class="valor">Valor: R$ ___/hora-aula</p>
+            </li>
+            <li>
+                <h3>Pilates + Personal</h3>
+                <p>&#128525;</p>
+                <img src="./Img/pilatespersonal.jpg">
+                <p>Condição mais que especial</p>
+                <p class="valor">Valor: R$ ___/hora-aula</p>
+            </li>
+        </ul>
+        <br>
+        <form id="formulario">
+            <label for="nomeesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomeesobrenome" class="input-padrao" required placeholder="Ex.: José da Silva">
+           
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="input-padrao" placeholder="Ex.: seuusuário@domínio.com">
+           
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="Ex.: (XX) XXXXX-XXXX">
+           
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="67" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+           
+            <div>
+                <p>Como prefere o meu contato?</p>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+                
+                <label for="radio-ligacao"><input type="radio" name="contato" value="ligacao" id="radio-ligacao">Ligação</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contato" id="whatsapp" value="whatsapp" checked>WhatsApp</label>
+                </div>
+            
+            <label><input class="checkbox" type="checkbox" checked>Gostaria de receber novidades por e-mail?</label>
+            
+            <input class="submit" type="submit" value="Enviar Formulário">
+    </form>
+    <div>
+        <table>
+            <tr> 
+                <th>Modalidade</th>
+                <th>Frequência Sugerida</th>
+                <th>Benefícios</th>
+                <th>Idade Mínima</th>
+                <th>Idade Máxima</th>
+            </tr>
+            <tr>
+                <td>Musculação</td>
+                <td>3x na Semana</td>
+                <td>Fortalecimento, Perda de Massa Gorda e Hipertrofia</td>
+                <td>8 anos</td>
+                <td>Não há idade limite</td>
+            </tr>
+            <tr>
+                <td>Pilates</td>
+                <td>3x na semana</td>
+                <td>Alongamento, Alívio de dores e Fortalecimento</td>
+                <td>Todas as idades</td>
+                <td>Não há idade limite</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <p>Vamos descontrair? Selecione abaixo a opção que mais se assemelha à sua relação com a atividade física!</p>
+        <select>
+            <option>Rato(a) de academia, com urgulho! &#128170</option>
+            <option>Estou matriculado(a) na academia, mas sabe como é né? &#129335</option>
+            <option>Esse ano eu prometi pra mim mesmo que vou começar! &#129310</option>
+            <option>Deus é mais! Não sirvo pra isso não! &#9760</option>
+        </select>
+    </div>
+    </main>
+    <footer>
+       <img class="fotovictor" src="victor.jpg">
+       <p class="copyright">	
+        &copy; Copyright Dra Raquel Bueno 2023</p>
+    </footer>    
+</body>
+</html>
